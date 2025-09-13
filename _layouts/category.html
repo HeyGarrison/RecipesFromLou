@@ -1,0 +1,107 @@
+---
+layout: default
+---
+
+<div class="category-page">
+  <header class="category-header">
+    <h1>{{ page.title }}</h1>
+    <p class="category-description">{{ page.description | default: content }}</p>
+    <a href="{{ site.baseurl }}/" class="back-link">← Back to All Categories</a>
+  </header>
+
+  <div class="recipe-list">
+    {% assign category_recipes = site.pages | where_exp: "page", "page.path contains page.category_path" | sort: "title" %}
+    
+    {% if category_recipes.size > 0 %}
+      <div class="recipes-grid">
+        {% for recipe in category_recipes %}
+          {% unless recipe.path contains 'index' %}
+            <div class="recipe-card">
+              <h3><a href="{{ recipe.url | prepend: site.baseurl }}">{{ recipe.title }}</a></h3>
+              {% if recipe.excerpt %}
+                <p class="recipe-excerpt">{{ recipe.excerpt | strip_html | truncate: 150 }}</p>
+              {% endif %}
+            </div>
+          {% endunless %}
+        {% endfor %}
+      </div>
+    {% else %}
+      <p>No recipes found in this category yet.</p>
+    {% endif %}
+  </div>
+</div>
+
+<style>
+.category-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.category-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #eee;
+}
+
+.category-description {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 1rem 0 2rem 0;
+}
+
+.back-link {
+  color: #0366d6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.recipe-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.recipe-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.recipe-card h3 {
+  margin: 0 0 1rem 0;
+}
+
+.recipe-card h3 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.recipe-card h3 a:hover {
+  color: #0366d6;
+}
+
+.recipe-excerpt {
+  color: #666;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .recipes-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>

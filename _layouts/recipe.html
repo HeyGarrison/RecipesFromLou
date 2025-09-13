@@ -1,0 +1,125 @@
+---
+layout: default
+---
+
+<article class="recipe">
+  <header class="recipe-header">
+    <h1>{{ page.title }}</h1>
+    {% if page.category %}
+      <p class="recipe-category">
+        <a href="{{ page.category | downcase | prepend: '/converted/' | prepend: site.baseurl }}/">← Back to {{ page.category }}</a>
+      </p>
+    {% endif %}
+  </header>
+
+  <div class="recipe-content">
+    {{ content }}
+  </div>
+
+  <footer class="recipe-footer">
+    <div class="recipe-navigation">
+      {% assign recipe_pages = site.pages | where_exp: "page", "page.path contains 'converted'" | sort: "path" %}
+      {% for recipe in recipe_pages %}
+        {% if recipe.url == page.url %}
+          {% assign current_index = forloop.index0 %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      
+      {% if current_index > 0 %}
+        {% assign prev_recipe = recipe_pages[current_index | minus: 1] %}
+        <a href="{{ prev_recipe.url | prepend: site.baseurl }}" class="nav-link prev">← {{ prev_recipe.title }}</a>
+      {% endif %}
+      
+      {% assign next_index = current_index | plus: 1 %}
+      {% if recipe_pages[next_index] %}
+        {% assign next_recipe = recipe_pages[next_index] %}
+        <a href="{{ next_recipe.url | prepend: site.baseurl }}" class="nav-link next">{{ next_recipe.title }} →</a>
+      {% endif %}
+    </div>
+    
+    <div class="back-to-home">
+      <a href="{{ site.baseurl }}/">← Back to All Recipes</a>
+    </div>
+  </footer>
+</article>
+
+<style>
+.recipe {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.recipe-header {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.recipe-category {
+  color: #666;
+  font-style: italic;
+}
+
+.recipe-category a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.recipe-category a:hover {
+  text-decoration: underline;
+}
+
+.recipe-content {
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+.recipe-content h2, .recipe-content h3 {
+  color: #333;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.recipe-footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
+}
+
+.recipe-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.nav-link {
+  color: #0366d6;
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  background-color: #f6f8fa;
+}
+
+.back-to-home {
+  text-align: center;
+}
+
+.back-to-home a {
+  color: #0366d6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .recipe-navigation {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+</style>
