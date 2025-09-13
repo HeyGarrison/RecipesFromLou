@@ -10,7 +10,7 @@ layout: default
   </header>
 
   <div class="recipe-list">
-    {% assign category_recipes = site.pages | where_exp: "page", "page.path contains page.category_path" | sort: "title" %}
+    {% assign category_recipes = site.pages | where: "category", page.title | sort: "title" %}
     
     {% if category_recipes.size > 0 %}
       <div class="recipes-grid">
