@@ -1,3 +1,5 @@
+# Muffins
+
 Blueberry Coffeecake
 
 Note: Make Topping first since it must be refrigerated for 30 minutes

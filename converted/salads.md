@@ -1,3 +1,5 @@
+# Salads
+
 **Bing Cherry-Cola Salad**
 
 1 large package of black cherry Jell-O 1 can Bing cherries (or black
