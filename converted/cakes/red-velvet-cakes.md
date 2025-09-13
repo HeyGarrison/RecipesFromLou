@@ -1,3 +1,9 @@
+---
+layout: recipe
+title: "red velvet cakes"
+category: "Cakes"
+---
+
 # Red Velvet Cakes
 
 Red Velvet Cake\* #1

@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: "bars and squares"
+---
+
 # Bars And Squares
 
 Applesauce Spice Bars

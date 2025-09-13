@@ -1,3 +1,9 @@
+---
+layout: recipe
+title: "muffins"
+category: "Breads"
+---
+
 # Muffins
 
 Blueberry Coffeecake

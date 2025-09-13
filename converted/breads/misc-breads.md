@@ -1,3 +1,9 @@
+---
+layout: recipe
+title: "misc breads"
+category: "Breads"
+---
+
 # Misc Breads
 
 Broccoli Bread

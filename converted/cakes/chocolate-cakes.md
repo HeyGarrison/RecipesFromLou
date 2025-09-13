@@ -1,3 +1,9 @@
+---
+layout: recipe
+title: "chocolate cakes"
+category: "Cakes"
+---
+
 # Chocolate Cakes
 
 Chocolate/Peanut Butter Cupcakes

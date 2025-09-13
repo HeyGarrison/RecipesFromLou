@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: "pies"
+---
+
 # Pies
 
 **Apple Pie**

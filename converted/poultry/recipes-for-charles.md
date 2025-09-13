@@ -1,3 +1,9 @@
+---
+layout: recipe
+title: "recipes for charles"
+category: "Poultry"
+---
+
 # Recipes For Charles
 
 **Chicken Pot Pie**

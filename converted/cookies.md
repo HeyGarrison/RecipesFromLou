@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: "cookies"
+---
+
 # Cookies
 
 Lace Oatmeal Cookies

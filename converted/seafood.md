@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: "seafood"
+---
+
 # Seafood
 
 Party Flounder

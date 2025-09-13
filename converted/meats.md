@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: "meats"
+---
+
 # Meats
 
 **Foolproof Swiss steak**

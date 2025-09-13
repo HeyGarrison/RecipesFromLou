@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: "canning and preserves"
+---
+
 # Canning And Preserves
 
 **Strawberry Jam -- 10 Minutes to Homemade**
