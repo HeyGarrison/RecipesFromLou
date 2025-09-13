@@ -1,3 +1,9 @@
+---
+layout: recipe
+title: "Poundcakes"
+category: "Cakes"
+---
+
 # Poundcakes
 
 Poundcake #1

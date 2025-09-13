@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: "Introduction"
+---
+
 # Introduction
 
 **DEDICATION**

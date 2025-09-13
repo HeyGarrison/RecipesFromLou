@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: "Salads"
+---
+
 # Salads
 
 **Bing Cherry-Cola Salad**

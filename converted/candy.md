@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: "Candy"
+---
+
 # Candy
 
 Creamy Double Decker Fudge

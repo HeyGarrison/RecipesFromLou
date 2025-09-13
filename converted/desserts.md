@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: "Desserts"
+---
+
 # Desserts
 
 **Apple Dumplings #1**

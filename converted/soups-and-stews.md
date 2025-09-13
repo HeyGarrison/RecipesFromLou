@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: "Soups And Stews"
+---
+
 # Soups And Stews
 
 **"Lite" Chicken Dumpling Stew**

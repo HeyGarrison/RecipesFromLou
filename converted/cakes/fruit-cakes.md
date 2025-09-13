@@ -1,3 +1,9 @@
+---
+layout: recipe
+title: "Fruit Cakes"
+category: "Cakes"
+---
+
 # Fruit Cakes
 
 Apple Cake

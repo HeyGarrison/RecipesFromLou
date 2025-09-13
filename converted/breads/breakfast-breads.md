@@ -1,3 +1,9 @@
+---
+layout: recipe
+title: "Breakfast Breads"
+category: "Breads"
+---
+
 # Breakfast Breads
 
 Blueberry Coffeecake

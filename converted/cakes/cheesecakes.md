@@ -1,3 +1,9 @@
+---
+layout: recipe
+title: "Cheesecakes"
+category: "Cakes"
+---
+
 # Cheesecakes
 
 Cheesecake

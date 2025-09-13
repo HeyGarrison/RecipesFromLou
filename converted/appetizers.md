@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: "Appetizers"
+---
+
 # Appetizers
 
 Bacon Crackers #1

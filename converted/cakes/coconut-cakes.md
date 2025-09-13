@@ -1,3 +1,9 @@
+---
+layout: recipe
+title: "Coconut Cakes"
+category: "Cakes"
+---
+
 # Coconut Cakes
 
 Terrific Triple Coconut Cake

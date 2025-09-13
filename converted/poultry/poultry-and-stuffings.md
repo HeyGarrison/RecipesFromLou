@@ -1,3 +1,9 @@
+---
+layout: recipe
+title: "Poultry And Stuffings"
+category: "Poultry"
+---
+
 # Poultry And Stuffings
 
 **Chicken Kiev**

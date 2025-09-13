@@ -1,3 +1,9 @@
+---
+layout: recipe
+title: "Cornbread"
+category: "Breads"
+---
+
 # Cornbread
 
 Community Cornbread

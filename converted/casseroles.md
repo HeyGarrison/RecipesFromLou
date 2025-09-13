@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: "Casseroles"
+---
+
 # Casseroles
 
 Baked Almond Chicken Casserole

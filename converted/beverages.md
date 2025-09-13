@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: "Beverages"
+---
+
 # Beverages
 
 Banana Punch

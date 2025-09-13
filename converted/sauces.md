@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: "Sauces"
+---
+
 # Sauces
 
 **Lemon Sauce**

@@ -15,18 +15,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# Collections for organized recipes
-collections:
-  recipes:
-    output: true
-    permalink: /:collection/:name/
-
-# Navigation
-header_pages:
-  - introduction.md
-  - recipes.md
-  - about.md
-
 # Exclude files from build
 exclude:
   - RAW/
@@ -38,32 +26,10 @@ exclude:
   - .jekyll-cache
   - .jekyll-metadata
 
-# Include converted directory
-include:
-  - converted
-
-# Default layouts
+# Default layouts for recipe files
 defaults:
   - scope:
       path: "converted"
       type: "pages"
     values:
       layout: "recipe"
-  - scope:
-      path: "converted/breads"
-      type: "pages"  
-    values:
-      layout: "recipe"
-      category: "Breads"
-  - scope:
-      path: "converted/cakes"
-      type: "pages"
-    values:
-      layout: "recipe" 
-      category: "Cakes"
-  - scope:
-      path: "converted/poultry"
-      type: "pages"
-    values:
-      layout: "recipe"
-      category: "Poultry"

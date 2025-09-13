@@ -1,3 +1,8 @@
+---
+layout: recipe
+title: "Icings And Frostings"
+---
+
 # Icings And Frostings
 
 Boiled Icing #1

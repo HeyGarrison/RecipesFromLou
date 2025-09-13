@@ -1,3 +1,9 @@
+---
+layout: recipe
+title: "Misc Cakes"
+category: "Cakes"
+---
+
 # Misc Cakes
 
 Almond Poppyseed Cake
