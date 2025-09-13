@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: "Desserts"
+category: "Desserts & Sweets"
 ---
 
 # Desserts

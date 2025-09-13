@@ -6,7 +6,12 @@ layout: default
   <header class="recipe-header">
     <div class="recipe-navigation-top">
       {% if page.category %}
-        <a href="{{ page.category | downcase | prepend: '/converted/' | prepend: site.baseurl }}/" class="back-link">← Back to {{ page.category }}</a>
+        {% assign category_slug = page.category | downcase | replace: ' & ', '-' | replace: ' ', '-' %}
+        {% if page.category == 'Breads' or page.category == 'Cakes' or page.category == 'Poultry' %}
+          <a href="{{ page.category | downcase | prepend: '/converted/' | prepend: site.baseurl }}/" class="back-link">← Back to {{ page.category }}</a>
+        {% else %}
+          <a href="{{ category_slug | prepend: '/categories/' | prepend: site.baseurl }}" class="back-link">← Back to {{ page.category }}</a>
+        {% endif %}
       {% else %}
         <a href="{{ site.baseurl }}/" class="back-link">← Back to All Recipes</a>
       {% endif %}

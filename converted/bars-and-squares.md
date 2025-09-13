@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: "Bars And Squares"
+category: "Desserts & Sweets"
 ---
 
 # Bars And Squares

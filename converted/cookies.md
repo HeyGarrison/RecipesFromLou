@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: "Cookies"
+category: "Baking & Cookies"
 ---
 
 # Cookies

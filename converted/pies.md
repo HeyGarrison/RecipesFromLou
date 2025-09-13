@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: "Pies"
+category: "Desserts & Sweets"
 ---
 
 # Pies

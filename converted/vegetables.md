@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: "Vegetables"
+category: "Sides & Salads"
 ---
 
 # Vegetables

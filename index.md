@@ -16,8 +16,8 @@ This website contains Lou's cherished recipe collection, gathered over 50 years 
 <div class="recipe-categories">
   <div class="category-grid">
     <div class="category-card">
-      <h3><a href="/RecipesFromLou/converted/appetizers">🥗 Appetizers</a></h3>
-      <p>Start your meal right with these delicious appetizers and party favorites.</p>
+      <h3><a href="/RecipesFromLou/categories/appetizers-beverages">🥗 Appetizers & Beverages</a></h3>
+      <p>Start your meal right and quench your thirst with appetizers and drinks.</p>
     </div>
     
     <div class="category-card">
@@ -31,18 +31,18 @@ This website contains Lou's cherished recipe collection, gathered over 50 years 
     </div>
     
     <div class="category-card">
-      <h3><a href="/RecipesFromLou/converted/cookies">🍪 Cookies</a></h3>
-      <p>Classic cookies and sweet treats for every occasion.</p>
+      <h3><a href="/RecipesFromLou/categories/baking-cookies">🍪 Baking & Cookies</a></h3>
+      <p>Classic cookies, bars, and sweet baked treats for every occasion.</p>
     </div>
     
     <div class="category-card">
-      <h3><a href="/RecipesFromLou/converted/desserts">🍮 Desserts</a></h3>
-      <p>Special desserts beyond cakes and cookies.</p>
+      <h3><a href="/RecipesFromLou/categories/desserts-sweets">🍮 Desserts & Sweets</a></h3>
+      <p>Indulgent desserts, pies, candy, and sweet confections.</p>
     </div>
     
     <div class="category-card">
-      <h3><a href="/RecipesFromLou/converted/meats">🥩 Meats</a></h3>
-      <p>Hearty main dishes featuring beef and pork.</p>
+      <h3><a href="/RecipesFromLou/categories/main-courses">🥩 Main Courses</a></h3>
+      <p>Hearty main dishes with meats, seafood, and satisfying casseroles.</p>
     </div>
     
     <div class="category-card">
@@ -51,28 +51,13 @@ This website contains Lou's cherished recipe collection, gathered over 50 years 
     </div>
     
     <div class="category-card">
-      <h3><a href="/RecipesFromLou/converted/seafood">🐟 Seafood</a></h3>
-      <p>Fresh fish and seafood preparations.</p>
+      <h3><a href="/RecipesFromLou/categories/sides-salads">🥗 Sides & Salads</a></h3>
+      <p>Fresh vegetables, salads, and flavorful sauces to complement meals.</p>
     </div>
     
     <div class="category-card">
-      <h3><a href="/RecipesFromLou/converted/soups-and-stews">🍲 Soups & Stews</a></h3>
-      <p>Warming soups and hearty stews for comfort.</p>
-    </div>
-    
-    <div class="category-card">
-      <h3><a href="/RecipesFromLou/converted/vegetables">🥕 Vegetables</a></h3>
-      <p>Fresh vegetable sides and preparations.</p>
-    </div>
-    
-    <div class="category-card">
-      <h3><a href="/RecipesFromLou/converted/salads">🥗 Salads</a></h3>
-      <p>Fresh salads and dressings for every season.</p>
-    </div>
-    
-    <div class="category-card">
-      <h3><a href="/RecipesFromLou/converted/beverages">🥤 Beverages</a></h3>
-      <p>Refreshing drinks and party beverages.</p>
+      <h3><a href="/RecipesFromLou/categories/preservation-canning">🥫 Preservation & Canning</a></h3>
+      <p>Traditional preservation methods and hearty comfort soups.</p>
     </div>
   </div>
 </div>

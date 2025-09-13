@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: "Salads"
+category: "Sides & Salads"
 ---
 
 # Salads

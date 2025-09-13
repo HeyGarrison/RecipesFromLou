@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: "Appetizers"
+category: "Appetizers & Beverages"
 ---
 
 # Appetizers

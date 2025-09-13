@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: "Icings And Frostings"
+category: "Desserts & Sweets"
 ---
 
 # Icings And Frostings

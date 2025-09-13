@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: "Canning And Preserves"
+category: "Preservation & Canning"
 ---
 
 # Canning And Preserves
