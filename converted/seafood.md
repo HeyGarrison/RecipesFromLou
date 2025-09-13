@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: "Seafood"
+category: "Main Courses"
 ---
 
 # Seafood

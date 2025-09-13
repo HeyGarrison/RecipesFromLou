@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: "Sauces"
+category: "Sides & Salads"
 ---
 
 # Sauces

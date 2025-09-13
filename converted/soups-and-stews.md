@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: "Soups And Stews"
+category: "Preservation & Canning"
 ---
 
 # Soups And Stews

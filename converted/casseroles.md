@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: "Casseroles"
+category: "Main Courses"
 ---
 
 # Casseroles

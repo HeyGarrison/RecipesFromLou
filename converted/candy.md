@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: "Candy"
+category: "Desserts & Sweets"
 ---
 
 # Candy
