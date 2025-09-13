@@ -1,0 +1,15 @@
+---
+layout: none
+---
+[
+  {% for page in site.pages %}
+    {% if page.layout == 'recipe' and page.title %}
+      {
+        "title": {{ page.title | jsonify }},
+        "category": {{ page.category | jsonify }},
+        "content": {{ page.content | strip_html | truncatewords: 50 | jsonify }},
+        "url": {{ page.url | prepend: site.baseurl | jsonify }}
+      }{% unless forloop.last %},{% endunless %}
+    {% endif %}
+  {% endfor %}
+]
