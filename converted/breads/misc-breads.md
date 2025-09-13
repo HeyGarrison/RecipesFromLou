@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "misc breads"
+title: "Misc Breads"
 category: "Breads"
 ---
 

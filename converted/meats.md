@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "meats"
+title: "Meats"
 ---
 
 # Meats

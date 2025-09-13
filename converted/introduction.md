@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "introduction"
+title: "Introduction"
 ---
 
 # Introduction

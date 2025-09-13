@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "soups and stews"
+title: "Soups And Stews"
 ---
 
 # Soups And Stews

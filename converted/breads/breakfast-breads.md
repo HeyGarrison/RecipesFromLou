@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "breakfast breads"
+title: "Breakfast Breads"
 category: "Breads"
 ---
 

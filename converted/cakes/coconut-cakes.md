@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "coconut cakes"
+title: "Coconut Cakes"
 category: "Cakes"
 ---
 

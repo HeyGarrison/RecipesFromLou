@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "recipes for charles"
+title: "Recipes For Charles"
 category: "Poultry"
 ---
 

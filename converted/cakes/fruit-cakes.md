@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "fruit cakes"
+title: "Fruit Cakes"
 category: "Cakes"
 ---
 

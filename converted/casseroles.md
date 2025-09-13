@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "casseroles"
+title: "Casseroles"
 ---
 
 # Casseroles

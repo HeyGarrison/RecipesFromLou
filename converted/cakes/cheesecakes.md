@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "cheesecakes"
+title: "Cheesecakes"
 category: "Cakes"
 ---
 

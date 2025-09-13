@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "cornbread"
+title: "Cornbread"
 category: "Breads"
 ---
 

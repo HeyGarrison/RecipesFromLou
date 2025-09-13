@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "cookies"
+title: "Cookies"
 ---
 
 # Cookies

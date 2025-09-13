@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "salads"
+title: "Salads"
 ---
 
 # Salads

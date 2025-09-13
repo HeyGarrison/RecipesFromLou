@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "chocolate cakes"
+title: "Chocolate Cakes"
 category: "Cakes"
 ---
 

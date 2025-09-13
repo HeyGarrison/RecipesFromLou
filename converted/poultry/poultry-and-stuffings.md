@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "poultry and stuffings"
+title: "Poultry And Stuffings"
 category: "Poultry"
 ---
 

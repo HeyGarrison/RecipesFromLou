@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "desserts"
+title: "Desserts"
 ---
 
 # Desserts

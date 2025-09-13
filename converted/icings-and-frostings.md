@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "icings and frostings"
+title: "Icings And Frostings"
 ---
 
 # Icings And Frostings

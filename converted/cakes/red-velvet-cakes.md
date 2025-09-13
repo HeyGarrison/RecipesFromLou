@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "red velvet cakes"
+title: "Red Velvet Cakes"
 category: "Cakes"
 ---
 

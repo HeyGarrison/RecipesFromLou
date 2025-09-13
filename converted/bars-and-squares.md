@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "bars and squares"
+title: "Bars And Squares"
 ---
 
 # Bars And Squares

@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "misc cakes"
+title: "Misc Cakes"
 category: "Cakes"
 ---
 

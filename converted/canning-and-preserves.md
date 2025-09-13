@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "canning and preserves"
+title: "Canning And Preserves"
 ---
 
 # Canning And Preserves

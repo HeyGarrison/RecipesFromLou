@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "appetizers"
+title: "Appetizers"
 ---
 
 # Appetizers

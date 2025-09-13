@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "poundcakes"
+title: "Poundcakes"
 category: "Cakes"
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "sauces"
+title: "Sauces"
 ---
 
 # Sauces

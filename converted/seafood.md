@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "seafood"
+title: "Seafood"
 ---
 
 # Seafood

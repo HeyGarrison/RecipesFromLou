@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "muffins"
+title: "Muffins"
 category: "Breads"
 ---
 

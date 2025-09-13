@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "vegetables"
+title: "Vegetables"
 ---
 
 # Vegetables
